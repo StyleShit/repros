@@ -3,11 +3,7 @@ import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
 
-/**
- * Creates two programs sharing structure via `oldProgram` and returns whether
- * each one recognizes `lib.es6.d.ts` as a default library file.
- */
-export function checkIsSourceFileDefaultLibraryAfterReuse(ts: typeof TS): {
+export function isES6LibInDefaultLibrary(ts: typeof TS): {
   program1: boolean;
   program2: boolean;
 } {
