@@ -1,0 +1,27 @@
+{
+  "name": "ts-6-api-program-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "dependencies": {
+    "typescript-5": "npm:typescript@^5.9.3",
+    "typescript-6": "npm:typescript@6.0.0-beta",
+    "typescript-6-patched": "npm:typescript@6.0.1-rc"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "vitest": "^4.0.18"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "typescript@6.0.1-rc": "patches/typescript-6-patched.patch"
+    }
+  }
+}
