@@ -1,12 +1,3 @@
-/**
- * Minimal reproduction: `program.isSourceFileDefaultLibrary()` returns `false`
- * after full program structure reuse via `oldProgram`.
- *
- * Root cause: When `tryReuseStructureFromOldProgram` returns
- * `StructureIsReused.Completely`, the new program never populates its
- * `libFiles` Set and doesn't copy it from the old program.
- */
-
 import type * as TS from "typescript-5";
 import * as fs from "node:fs";
 import * as os from "node:os";
