@@ -32,4 +32,4 @@ it doesn't have anything to do with the bug itself.
 ## AI Disclaimer
 
 I used AI to generate the reproduction to save some time. The bug and the solution were discovered manually
-by me when working on ts-eslint upgrade to TypeScript 6 (PR TBD).
+by me when working on ts-eslint upgrade to TypeScript 6 (https://github.com/typescript-eslint/typescript-eslint/pull/12124).
