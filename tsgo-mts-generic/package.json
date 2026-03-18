@@ -1,0 +1,16 @@
+{
+  "name": "tsgo-mts-generic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsgo --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20260318.1"
+  }
+}
