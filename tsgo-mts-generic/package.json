@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "typecheck": "tsgo --noEmit"
+    "typecheck-tsc": "tsc --noEmit",
+    "typecheck-tsgo": "tsgo --noEmit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.20.0",
   "devDependencies": {
-    "@typescript/native-preview": "7.0.0-dev.20260318.1"
+    "@typescript/native-preview": "7.0.0-dev.20260318.1",
+    "typescript": "6.0.1-rc"
   }
 }

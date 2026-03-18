@@ -11,6 +11,9 @@ importers:
       '@typescript/native-preview':
         specifier: 7.0.0-dev.20260318.1
         version: 7.0.0-dev.20260318.1
+      typescript:
+        specifier: 6.0.1-rc
+        version: 6.0.1-rc
 
 packages:
 
@@ -53,6 +56,11 @@ packages:
     resolution: {integrity: sha512-/7LF/2x29K++k147445omxNixPANTmwJl9p/IIzK8NbOeqVOFv1Gj1GQyOQqRdT4j/X6YDwO/p400/JKE+cBOw==}
     hasBin: true
 
+  typescript@6.0.1-rc:
+    resolution: {integrity: sha512-7XlzYb+p/7YxX6qSOzwB4mxVFRdAgWWkj1PgAZ+jzldeuFV6Z77vwFbNxHsUXAL/bhlWY2jCT8shLwDJR8337g==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
 snapshots:
 
   '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260318.1':
@@ -85,3 +93,5 @@ snapshots:
       '@typescript/native-preview-linux-x64': 7.0.0-dev.20260318.1
       '@typescript/native-preview-win32-arm64': 7.0.0-dev.20260318.1
       '@typescript/native-preview-win32-x64': 7.0.0-dev.20260318.1
+
+  typescript@6.0.1-rc: {}
