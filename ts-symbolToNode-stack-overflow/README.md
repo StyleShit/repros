@@ -22,6 +22,8 @@ pnpm typecheck-1
 pnpm typecheck-2
 ```
 
+> Note: This is failing in both v5 and v6.
+
 Interestingly, this is failing in `tsgo` as well, but it a different way - just hanging and eating up memory
 (I stopped it after ~30 seconds). You can run it with:
 
