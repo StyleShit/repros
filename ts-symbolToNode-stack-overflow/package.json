@@ -1,0 +1,20 @@
+{
+  "name": "ts-symbolToNode-stack-overflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck-1": "tsc --project tsconfig.repro-1.json",
+    "typecheck-2": "tsc --project tsconfig.repro-2.json",
+    "typecheck-1-tsgo": "tsgo --project tsconfig.repro-1.json",
+    "typecheck-2-tsgo": "tsgo --project tsconfig.repro-2.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20260426.1",
+    "typescript": "^6.0.3"
+  }
+}
