@@ -5,7 +5,9 @@ const rawPlugin = {
   },
 };
 
+const { rules, configs } = rawPlugin.plugin;
+
 export = {
-  rules: rawPlugin.plugin.rules,
-  configs: rawPlugin.plugin.configs,
+  rules,
+  configs,
 };
