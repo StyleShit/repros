@@ -16,5 +16,13 @@ const plainObjectContent = fs.readFileSync(
 const assignment = parse(assignmentContent);
 const plainObject = parse(plainObjectContent);
 
-console.log("module.exports = plugin: ", assignment.exports);
-console.log("modules.exports = { rules, configs }: ", plainObject.exports);
+console.table([
+  {
+    source: "module.exports = plugin",
+    exports: assignment.exports.join(", "),
+  },
+  {
+    source: "module.exports = { rules, configs }",
+    exports: plainObject.exports.join(", "),
+  },
+]);
