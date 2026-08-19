@@ -1,0 +1,18 @@
+{
+  "name": "ts-getReturnType-stack-overflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node src/repro.ts",
+    "repro-tsgo": "node src/repro-tsgo.ts",
+    "typecheck": "tsc",
+    "typecheck-tsgo": "tsgo"
+  },
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@typescript/native-preview": "7.0.0-dev.20260707.2",
+    "typescript": "6.0.3"
+  }
+}
